@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,900,200,300,700);
+
+body{
+    font-family:'Titillium Web', sans-serif;
+}
+
+#nav-wrap {
+    font: 15px 'Titillium Web', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-weight:bold;
+    background:#5A5A5A;
+  }
+  ul#navb li {
+    position:relative;
+    list-style:none;
+    height:42px;
+    display:inline-block;
+  }
+  ul#navb li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+  ul#navb li.current a {
+    color: #F06000;
+  }
+  ul#navb li a:hover {
+    border-bottom: 3px solid #F06000;
+    transition: .2s fade-in;
+  }
+
+.backgroundBanner {
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-size:45px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    line-height: 55px;
+}
+
+h2 {
+    text-decoration: overline;
+}
+
+#myJourney {
+    font-size:30px;
+    padding:100px;
+    text-align:justify;
+}
+
+.education {
+    font-size:25px;
+    padding:100px;
+    text-align:center;
+}
+
+.education {
+    background-color: grey;
+    background-position: center;
+}
+
+.work {
+    font-size:25px;
+    padding:100px;
+    text-align:center;
+}
+
+.companies {
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+footer  {
+    background-color: #5A5A5A;
+    font-size:20px;
+    padding:100px;
+    text-align:center;
+}
+.contact {
+    font-size:30px;
+    padding:10px;
+    text-align:center;
+}
+    
+.hireMe {
+    background-color:#5A5A5A;
+    text-align: center;
+}
+
+.hireMeText {
+    font-size:50px;
+    text-align: center;
+}
